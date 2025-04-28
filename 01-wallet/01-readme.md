@@ -1,4 +1,10 @@
 ## 🔒 If You Just Want to Use a Wallet (Personal Use):
+### 0.  Chrome extension wallet is safe but two tips for maximizing your safety.
+
+1. Store your recovery phrase off your computer. Write it down on a few pieces of paper and secure those papers somewhere. Bonus points if you store your private key somewhere private offline as well.
+
+2. After setting up your wallet, delete the extension and redownload it. This time set it up from a recovery phrase. By doing this you verify the accuracy of your recover phrase and avoid a rare bug that can occur where your wallet address does not match your recover phrase.
+
 ### 1. Software Wallets (Easy and free)
 * Apps: [MetaMask](https://metamask.io/), [Trust Wallet](https://trustwallet.com/), [Coinbase Wallet]()
 
