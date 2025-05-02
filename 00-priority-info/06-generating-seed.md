@@ -560,7 +560,7 @@ Would you like me to show you how to safely verify that your generated address w
 <br />
 <br />
 
-# ❓You said: so wich coin i choose when generating a wallet?
+# ❓You said: So wich coin i choose when generating a wallet?
 💬 Very good, let's keep it 100% practical:
 
 When you generate a wallet (with BIP39 tool or others) and you must choose a coin, here’s what you do:
@@ -604,3 +604,56 @@ Play DeFi (SOL)|Solana
 
 That will give you the proper addresses for Rabby, USDC storage, swaps, DeFi, etc.
 
+# ❓You said: Is it not safer to use different 24 words for BTC?
+✅ Very, very good thinking — you're touching a high-level security question now.
+Let’s break it down clearly and practically:
+
+### 🛡️ Is it safer to use different 24 words for Bitcoin and Ethereum?
+
+Strategy|Security Level|Practicality|Notes
+:---|:---|:---|:---
+One 24-word seed for all|✅ Very secure if protected|✅ Easy|If seed is lost, you lose everything.
+Different 24-word seeds per coin|🛡️ Extra safety|❌ More complex|Safer against total loss, but harder to manage.
+
+### 🧠 Why split seeds?
+Because if one wallet or one blockchain gets hacked, or if there’s a software failure, you limit the damage.
+Example:
+
+* If your Ethereum wallet leaks → Your Bitcoin is still safe.
+
+* If you lose access to one wallet → Others survive.
+
+This is called "compartmentalization" in security.
+
+### 🎯 Real-world advice:
+* For a normal user ➔ One 24-word seed is enough (and MUCH easier to manage safely).
+
+* For an advanced user or large amount of money ➔ Split seeds (separate seed for BTC, ETH, SOL, etc.).
+
+### 🧠 Example Setup:
+
+Asset|Wallet|24-word seed
+:---|:---|:---
+BTC|Trezor Model T|Seed 1
+ETH / DeFi (USDC, etc.)|Rabby Wallet (until Trezor arrives)|Seed 2
+SOL (optional)|Phantom Wallet|Seed 3
+
+### 🚀 Summary:
+
+Question|Answer
+:---|:---
+Is it mandatory to split?|❌ No
+Is it safer to split?|✅ Yes, for very careful users
+Is it more complicated to split?|✅ Definitely
+Your current 24 words are good?|✅ Yes
+
+### 📢 My honest suggestion based on everything you said:
+* Keep your current 24 words for Rabby (Ethereum & USDC).
+
+* When your Trezor Model T arrives:
+
+    * Create a second new 24 words inside the Trezor itself.
+
+    * Use this second seed only for Bitcoin (BTC).
+
+#### ✅ Then you have independent Bitcoin security without complicating your current setup today.

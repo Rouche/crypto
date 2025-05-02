@@ -1,4 +1,4 @@
-### 🧱 What is Bridging?
+# 🧱 What is Bridging?
 Bridging is the process of moving tokens from one blockchain network to another — like from Ethereum (Layer 1) to Arbitrum (Layer 2).
 
 * It does not swap tokens (USDC stays USDC)
@@ -59,3 +59,65 @@ Let’s say you received 100 USDC on Ethereum (L1) in Ctrl Wallet via ATM.
 → Use DeFi
 → Send tokens often
 → Interact with L2 apps
+
+# 🧭 Guide: Bridge from Polygon to Arbitrum One
+## ✅ Prerequisites
+* ✅ Wallet: Rabby Wallet or MetaMask, connected to both Polygon and Arbitrum One
+
+* ✅ Assets: Have ETH, USDC, or tokens on Polygon
+
+* ✅ Small amount of MATIC for gas on Polygon
+
+### 🔁 Step 1: Choose a Trusted Bridge
+Here are 3 safe bridges that support Polygon → Arbitrum:
+
+
+Bridge|Link|Notes
+:---|:---|:---
+Rango Exchange|https://app.rango.exchange|Aggregates multiple bridges (easy and flexible)
+Jumper Exchange|https://jumper.exchange|Powered by Socket, safe and fast
+Orbiter Finance|https://www.orbiter.finance|Low fees, simple UI (ETH only)
+>🔐 Always verify links from trusted sources before connecting your wallet.
+
+### 🔁 Step 2: Bridge Your Assets
+1. Go to the bridge website (e.g., Rango or Jumper)
+
+2. Connect your wallet.
+
+3. Select:
+
+    * From: Polygon
+
+    * To: Arbitrum One
+
+    * Asset: ETH or USDC (recommended)
+
+4. Enter the amount you want to send.
+
+5. Review the bridge fee and estimated time.
+
+6. Click Swap / Bridge, confirm in your wallet.
+
+>⏱️ Most transfers take 2–10 minutes depending on bridge.
+
+### ✅ Step 3: Confirm Arrival on Arbitrum
+* Switch your wallet to Arbitrum One.
+
+* Check balances directly in Rabby or on https://arbiscan.io using your wallet address.
+
+### 💡 Optional: Add Arbitrum to Your Wallet
+If not already added:
+```
+Network Name: Arbitrum One  
+RPC URL: https://arb1.arbitrum.io/rpc  
+Chain ID: 42161  
+Currency Symbol: ETH  
+Block Explorer: https://arbiscan.io
+```
+
+### 🛑 Safety Tips
+* Never bridge large amounts all at once — test with a small amount first.
+
+* Use only official or audited bridges — beware of phishing links.
+
+* For large transfers, consider bridging to ETH mainnet first, then to Arbitrum (more secure but higher fees).
